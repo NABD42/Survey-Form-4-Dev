@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Survey Form - NABD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="head">
+        <div class="title">
+            <h1 id="title">Dev Form</h1>
+            <p id="description"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam inventore adipisci, suscipit cupiditate vitae id. </p>
+        </div>
+
+    </section>
+
+    <form class="form">
+        <section >
+            <div class="form-1">
+                <label for="form-1">Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="form-1">
+                <label for="form-1">Email</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-1">
+                <label for="form-1">Age (optional)</label>
+                <input type="number" placeholder="Age">
+            </div>
+
+            <div class="option-1">
+            <label for="form-2">Which option best describes you as a Dev?</label>
+            <select name="form-2" id="form-2" required>
+                <option name="Select Your Role">Select Your Role</option>
+                <option value="Newbie">Newbie</option>
+                <option value="Advanced Noob">Advanced Noob</option>
+                <option value="Junior">Junior</option>
+                <option value="Advanced Junior">Advanced Junior</option>
+                <option value="Expert">Expert</option>
+                <option value="Senior">Senior</option>
+                <option value="Other">Other</option>
+            </select>
+            </div>
+
+             <div class="form-3">
+                 <p>What is your expertise?</p>
+                    <label for="option-3">
+                    Front-End Developper
+                     <input type="checkbox" value="Front End Dev" name="FE">
+                     </label>
+                     <label for="option-3">
+                    Back-End Developper
+                     <input type="checkbox" value="Back End Dev" name="BE">
+                     </label>
+                     <label for="option-3">
+                    Full-Stack Developper
+                     <input type="checkbox" value="Full Stack Dev" name="FS">
+                     </label>
+                     <label for="option-3">
+                    Designer/UI/UX
+                     <input type="checkbox" value="Designer" name="FE">
+                     </label>
+                     <label for="option-3">
+                    Other
+                     <input type="checkbox" value="Other" name="other">
+                     </label>
+        
+             </div>
+        </section>
+    </form>
+
+
+</body>
+</html>
